@@ -77,9 +77,20 @@
                 <strong>{{ car.color }}</strong>
               </p>
             </div>
+            <div class="row">
+            
+              <div class="book col-md-4">
+                  
+                      <a class="btn btn-primary" href="{% url 'sales' car.id %}">
+                          Sales
+                      </a>
+                 
+              </div>
           </div>
         </div>
       </div>
     </div>
+
+    
   </section>
 {% endblock content %}
